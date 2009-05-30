@@ -1,0 +1,19 @@
+﻿<html>
+<style>
+.dropdown {
+  background-color: white; 
+  background-image:url(drawing.png);
+  background-repeat:no-repeat;
+  background-position:right center;
+  border:1px solid lightgray;
+}
+
+.textbox {
+  border:1px solid lightgray;
+}
+
+</style>
+<form name="form">
+<input name="label" class="dropdown" autocomplete="off" size="20" onclick="this.className='textbox'" onchange="if(this.value=='')this.className='dropdown'"/>
+</form>
+</html>
